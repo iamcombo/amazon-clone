@@ -38,13 +38,13 @@ function Login() {
         <h1>Sign-In</h1>
         <form>
           <h5>E-mail</h5>
-          <input 
+          <input
             type='text'
             value={email}
             onChange={ e => setEmail(e.target.value) }
           />
           <h5>Password</h5>
-          <input 
+          <input
             type='password'
             value={password}
             onChange={ e => setPassword(e.target.value) }
